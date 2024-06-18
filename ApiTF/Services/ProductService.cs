@@ -33,10 +33,17 @@ namespace ApiTF.Services
 
         public TbProduct Insert(ProductDTO dto)
         {
-            var validation = _validatorProduct.Validate(dto);
-            if (!validation.IsValid)
+            if (dto.Description == null)
             {
-                throw new DataValidationException("Dados inválidos", validation.Errors);
+                throw new BadRequestException("Dados inválidos");
+            }
+            if (dto.Barcodetype == null)
+            {
+                throw new BadRequestException("Dados inválidos");
+            }
+            if (dto.Barcodetype == null)
+            {
+                throw new BadRequestException("Dados inválidos");
             }
 
             var product = _mapper.Map<TbProduct>(dto);

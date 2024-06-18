@@ -72,7 +72,7 @@ namespace ApiTF.Controllers
         /// 400= Requisição inválida;
         /// 404= Produto não encontrado;
         /// 422= Produto inválido;</br></param>
-        [HttpPatch("/products/{id}")]
+        [HttpPut("/products/{id}")]
         public ActionResult<TbProduct> Update(int id, ProductUpdateDTO dto)
         {
             try

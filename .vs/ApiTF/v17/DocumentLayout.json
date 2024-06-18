@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\daluz\\source\\repos\\ApiTF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|c:\\users\\daluz\\source\\repos\\apitf\\apitf\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|solutionrelative:apitf\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|c:\\users\\daluz\\source\\repos\\apitf\\apitf\\controllers\\promotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|solutionrelative:apitf\\controllers\\promotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|c:\\users\\daluz\\source\\repos\\apitf\\apitf\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|solutionrelative:apitf\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|c:\\users\\daluz\\source\\repos\\apitf\\apitf\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|solutionrelative:apitf\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|c:\\users\\daluz\\source\\repos\\apitf\\apitf\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|solutionrelative:apitf\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|c:\\users\\daluz\\source\\repos\\apitf\\apitf\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|solutionrelative:apitf\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|c:\\users\\daluz\\source\\repos\\apitf\\apitf\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4808000A-B377-4E8F-B3B5-27269A53F934}|ApiTF\\ApiTF.csproj|solutionrelative:apitf\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,12 +29,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 512,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 597,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SaleService.cs",
               "DocumentMoniker": "C:\\Users\\daluz\\source\\repos\\ApiTF\\ApiTF\\Services\\SaleService.cs",
               "RelativeDocumentMoniker": "ApiTF\\Services\\SaleService.cs",
@@ -47,33 +47,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PromotionController.cs",
-              "DocumentMoniker": "C:\\Users\\daluz\\source\\repos\\ApiTF\\ApiTF\\Controllers\\PromotionController.cs",
-              "RelativeDocumentMoniker": "ApiTF\\Controllers\\PromotionController.cs",
-              "ToolTip": "C:\\Users\\daluz\\source\\repos\\ApiTF\\ApiTF\\Controllers\\PromotionController.cs",
-              "RelativeToolTip": "ApiTF\\Controllers\\PromotionController.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAgwHgAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:09:07.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\daluz\\source\\repos\\ApiTF\\ApiTF\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ApiTF\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\daluz\\source\\repos\\ApiTF\\ApiTF\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ApiTF\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAzAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAgwEsAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T22:49:23.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SaleController.cs",
               "DocumentMoniker": "C:\\Users\\daluz\\source\\repos\\ApiTF\\ApiTF\\Controllers\\SaleController.cs",
               "RelativeDocumentMoniker": "ApiTF\\Controllers\\SaleController.cs",
@@ -81,19 +68,34 @@
               "RelativeToolTip": "ApiTF\\Controllers\\SaleController.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:48:19.528Z"
+              "WhenOpened": "2024-06-18T22:48:19.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\daluz\\source\\repos\\ApiTF\\ApiTF\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "ApiTF\\Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\daluz\\source\\repos\\ApiTF\\ApiTF\\Services\\ProductService.cs",
               "RelativeToolTip": "ApiTF\\Services\\ProductService.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAMwFYAAAAxAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAnwCcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T02:56:23.02Z"
+              "WhenOpened": "2024-06-11T02:56:23.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PromotionController.cs",
+              "DocumentMoniker": "C:\\Users\\daluz\\source\\repos\\ApiTF\\ApiTF\\Controllers\\PromotionController.cs",
+              "RelativeDocumentMoniker": "ApiTF\\Controllers\\PromotionController.cs",
+              "ToolTip": "C:\\Users\\daluz\\source\\repos\\ApiTF\\ApiTF\\Controllers\\PromotionController.cs",
+              "RelativeToolTip": "ApiTF\\Controllers\\PromotionController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwEoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T23:09:07.23Z",
+              "EditorCaption": ""
             }
           ]
         }

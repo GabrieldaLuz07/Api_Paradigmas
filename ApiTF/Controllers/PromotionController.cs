@@ -72,7 +72,7 @@ namespace ApiTF.Controllers
         /// 400= Requisição inválida;
         /// 404= Promoção não encontrada;
         /// 422= Promoção inválida;</br></param>
-        [HttpPatch("/promotions/{id}")]
+        [HttpPut("/promotions/{id}")]
         public ActionResult<TbPromotion> Update(int id, PromotionDTO dto)
         {
             try
