@@ -91,7 +91,7 @@
     "ContainingType": "ApiTF.Controllers.ProductController",
     "Method": "Update",
     "RelativePath": "products/{id}",
-    "HttpMethod": "PATCH",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -262,7 +262,7 @@
     "ContainingType": "ApiTF.Controllers.PromotionController",
     "Method": "Update",
     "RelativePath": "promotions/{id}",
-    "HttpMethod": "PATCH",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [

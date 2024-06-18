@@ -67,11 +67,11 @@ namespace ApiTF.Services
             if (produto == null)
                 throw new NotFoundException("Produto não existe");
 
-            var validation = _validatorProductUpdate.Validate(dto);
-            if (!validation.IsValid)
-            {
-                throw new DataValidationException("Dados inválidos", validation.Errors);
-            }
+            //var validation = _validatorProductUpdate.Validate(dto);
+            //if (!validation.IsValid)
+            //{
+           //     throw new DataValidationException("Dados inválidos", validation.Errors);
+           // }
 
             
             int stockAntigo = produto.Stock;
