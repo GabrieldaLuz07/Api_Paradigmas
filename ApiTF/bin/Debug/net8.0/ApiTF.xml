@@ -227,10 +227,10 @@
         </member>
         <member name="M:ApiTF.Controllers.SaleController.Insert(System.Collections.Generic.List{ApiTF.Services.DTOs.SaleDTO})">
             <summary>
-            Inserir um novo produto.
+            Inserir uma nova venda.
             </summary>
             <param name="sales">Vendas a serem inseridas.
-            É necessário informar todos os campos para criar um novo produto.
+            É necessário informar todos os campos para criar uma nova venda.
             <br>Os retornos são:
             200= Sucesso;
             400= Requisição inválida;

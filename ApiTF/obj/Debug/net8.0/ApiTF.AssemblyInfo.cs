@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiTF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0a5c562ff84806833e84f12e6338b0bdb980a1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiTF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiTF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

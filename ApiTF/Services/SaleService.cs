@@ -40,7 +40,7 @@ namespace ApiTF.Services
                 var validation = _validator.Validate(saleDTO);
                 if (!validation.IsValid)
                 {
-                    throw new DataValidationException("Dados inválidos", validation.Errors);
+                    throw new BadRequestException("Dados inválidos");
                 }
 
                 var product = _productService.GetById(saleDTO.Productid);
