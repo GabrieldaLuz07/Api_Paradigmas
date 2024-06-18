@@ -1,0 +1,6 @@
+@ApiTF_HostAddress = http://localhost:5279
+
+GET {{ApiTF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

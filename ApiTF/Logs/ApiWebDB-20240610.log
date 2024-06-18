@@ -1,0 +1,240 @@
+2024-06-10T23:45:23.9830607-03:00  [INF] Now listening on: "http://localhost:5279" (d826f4b8)
+2024-06-10T23:45:24.1266536-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-10T23:45:24.1315004-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-10T23:45:24.1346757-03:00  [INF] Content root path: "C:\Users\daluz\source\repos\ApiTF\ApiTF" (cc26f24e)
+2024-06-10T23:45:27.5978257-03:00 0HN49O25KE5UK:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger""" - null null (d509f86a)
+2024-06-10T23:45:28.4496877-03:00 0HN49O25KE5UK:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger""" - 301 0 null 864.9117ms (74253ad3)
+2024-06-10T23:45:28.5215930-03:00 0HN49O25KE5UK:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/index.html""" - null null (d509f86a)
+2024-06-10T23:45:28.6126714-03:00 0HN49O25KE5UK:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 91.0998ms (74253ad3)
+2024-06-10T23:45:29.3712939-03:00 0HN49O25KE5UK:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/swagger-ui.css""" - null null (d509f86a)
+2024-06-10T23:45:29.3721030-03:00 0HN49O25KE5UL:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/swagger-ui-bundle.js""" - null null (d509f86a)
+2024-06-10T23:45:29.3757591-03:00 0HN49O25KE5UM:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/swagger-ui-standalone-preset.js""" - null null (d509f86a)
+2024-06-10T23:45:29.3775091-03:00 0HN49O25KE5UN:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2024-06-10T23:45:29.3808393-03:00 0HN49O25KE5UN:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/_framework/aspnetcore-browser-refresh.js""" - 200 13746 "application/javascript; charset=utf-8" 3.4234ms (74253ad3)
+2024-06-10T23:45:29.4379917-03:00 0HN49O25KE5UM:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2024-06-10T23:45:29.4380409-03:00 0HN49O25KE5UK:00000003 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2024-06-10T23:45:29.4383703-03:00 0HN49O25KE5UL:00000001 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2024-06-10T23:45:29.4411556-03:00 0HN49O25KE5UL:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/swagger-ui-bundle.js""" - 200 1096145 "text/javascript" 69.3265ms (74253ad3)
+2024-06-10T23:45:29.4412004-03:00 0HN49O25KE5UK:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/swagger-ui.css""" - 200 143943 "text/css" 69.9684ms (74253ad3)
+2024-06-10T23:45:29.4412006-03:00 0HN49O25KE5UM:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/swagger-ui-standalone-preset.js""" - 200 339486 "text/javascript" 65.4454ms (74253ad3)
+2024-06-10T23:45:31.3777806-03:00 0HN49O25KE5UL:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/_vs/browserLink""" - null null (d509f86a)
+2024-06-10T23:45:31.5548256-03:00 0HN49O25KE5UL:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 178.5437ms (74253ad3)
+2024-06-10T23:45:31.8861368-03:00 0HN49O25KE5UM:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-06-10T23:45:31.9474242-03:00 0HN49O25KE5UO:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/favicon-32x32.png""" - null null (d509f86a)
+2024-06-10T23:45:31.9481330-03:00 0HN49O25KE5UO:00000001 [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' (27b0a520)
+2024-06-10T23:45:31.9483802-03:00 0HN49O25KE5UO:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 1.0573ms (74253ad3)
+2024-06-10T23:45:32.1116691-03:00 0HN49O25KE5UM:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 225.5742ms (74253ad3)
+2024-06-10T23:51:48.2541733-03:00 0HN49O25KE5UP:00000001 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5279""""/sales""" - "application/json" 159 (d509f86a)
+2024-06-10T23:51:48.2911311-03:00 0HN49O25KE5UP:00000001 [INF] Executing endpoint '"ApiTF.Controllers.SaleController.Insert (ApiTF)"' (500cc934)
+2024-06-10T23:51:48.3741114-03:00 0HN49O25KE5UP:00000001 [INF] Route matched with "{action = \"Insert\", controller = \"Sale\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiTF.BaseDados.Models.TbSale] Insert(System.Collections.Generic.List`1[ApiTF.Services.DTOs.SaleDTO])" on controller "ApiTF.Controllers.SaleController" ("ApiTF"). (122b2fdf)
+2024-06-10T23:51:51.6987155-03:00 0HN49O25KE5UP:00000001 [INF] Executed DbCommand ("79"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__id_0
+LIMIT 1" (0723d8ff)
+2024-06-10T23:51:51.8702137-03:00 0HN49O25KE5UP:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM tb_products AS t
+    WHERE t.id = @__idproduto_0)" (0723d8ff)
+2024-06-10T23:51:51.9190359-03:00 0HN49O25KE5UP:00000001 [INF] Executed DbCommand ("9"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.enddate, t.productid, t.promotiontype, t.startdate, t.value
+FROM tb_promotions AS t
+WHERE t.productid = @__idproduto_0 AND t.startdate <= now()::timestamp AND t.enddate >= now()::timestamp
+ORDER BY t.promotiontype" (0723d8ff)
+2024-06-10T23:51:51.9805443-03:00 0HN49O25KE5UP:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.barcode, t.barcodetype, t.costprice, t.description, t.price, t.stock
+FROM tb_products AS t
+WHERE t.id = @__id_0
+LIMIT 1" (0723d8ff)
+2024-06-10T23:51:52.1417097-03:00 0HN49O25KE5UP:00000001 [INF] Executed DbCommand ("26"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?', @p1='?', @p2='?' (DbType = Decimal), @p3='?', @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE tb_products SET barcode = @p0, barcodetype = @p1, costprice = @p2, description = @p3, price = @p4, stock = @p5
+WHERE id = @p6;" (0723d8ff)
+2024-06-10T23:51:52.2809948-03:00 0HN49O25KE5UP:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (0723d8ff)
+2024-06-10T23:51:52.3135247-03:00 0HN49O25KE5UP:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_stock_logs (createdat, productid, qty)
+VALUES (@p0, @p1, @p2)
+RETURNING id;" (0723d8ff)
+2024-06-10T23:51:52.3896837-03:00 0HN49O25KE5UP:00000001 [ERR] Failed executing DbCommand ("16"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?', @p2='?' (DbType = DateTime2), @p3='?' (DbType = Decimal), @p4='?' (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO tb_sales (id, code, createat, discount, price, productid, qty)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (627a98df)
+2024-06-10T23:51:52.5009539-03:00 0HN49O25KE5UP:00000001 [ERR] An exception occurred in the database while saving changes for context type '"ApiTF.BaseDados.TfDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 428C9: não é possível inserir um valor diferente de DEFAULT na coluna \"id\"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERRO
+    SqlState: 428C9
+    MessageText: não é possível inserir um valor diferente de DEFAULT na coluna \"id\"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    Hint: Use OVERRIDING SYSTEM VALUE to override.
+    File: rewriteHandler.c
+    Line: 899
+    Routine: rewriteTargetListIU
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 428C9: não é possível inserir um valor diferente de DEFAULT na coluna "id"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERRO
+    SqlState: 428C9
+    MessageText: não é possível inserir um valor diferente de DEFAULT na coluna "id"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    Hint: Use OVERRIDING SYSTEM VALUE to override.
+    File: rewriteHandler.c
+    Line: 899
+    Routine: rewriteTargetListIU
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at ApiTF.Services.SaleService.Insert(List`1 sales) in C:\Users\daluz\source\repos\ApiTF\ApiTF\Services\SaleService.cs:line 84
+   at ApiTF.Controllers.SaleController.Insert(List`1 sales) in C:\Users\daluz\source\repos\ApiTF\ApiTF\Controllers\SaleController.cs:line 40
+2024-06-10T23:51:52.7999342-03:00 0HN49O25KE5UP:00000001 [INF] Executing "ObjectResult", writing value of type '"System.String"'. (605b4265)
+2024-06-10T23:51:52.8115560-03:00 0HN49O25KE5UP:00000001 [INF] Executed action "ApiTF.Controllers.SaleController.Insert (ApiTF)" in 4429.1238ms (afa2e885)
+2024-06-10T23:51:52.8117766-03:00 0HN49O25KE5UP:00000001 [INF] Executed endpoint '"ApiTF.Controllers.SaleController.Insert (ApiTF)"' (99874f2b)
+2024-06-10T23:51:52.8264301-03:00 0HN49O25KE5UP:00000001 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5279""""/sales""" - 500 null "text/plain; charset=utf-8" 4575.2847ms (74253ad3)
+2024-06-10T23:53:15.8649437-03:00 0HN49O25KE5UQ:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/logs/1""" - null null (d509f86a)
+2024-06-10T23:53:15.8688542-03:00 0HN49O25KE5UQ:00000001 [INF] Executing endpoint '"ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)"' (500cc934)
+2024-06-10T23:53:15.8768030-03:00 0HN49O25KE5UQ:00000001 [INF] Route matched with "{action = \"GetStockLogs\", controller = \"StockLog\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ApiTF.Services.DTOs.StockLogResultDTO]] GetStockLogs(Int32)" on controller "ApiTF.Controllers.StockLogController" ("ApiTF"). (122b2fdf)
+2024-06-10T23:53:15.9529996-03:00 0HN49O25KE5UQ:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM tb_products AS t
+    WHERE t.id = @__idproduto_0)" (0723d8ff)
+2024-06-10T23:53:15.9791082-03:00 0HN49O25KE5UQ:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM tb_stock_logs AS t
+    WHERE t.productid = @__idproduto_0)" (0723d8ff)
+2024-06-10T23:53:16.1020204-03:00 0HN49O25KE5UQ:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.createdat AS \"Date\", t0.barcode AS \"Barcode\", t0.description AS \"Description\", t.qty AS \"Quantity\"
+FROM tb_stock_logs AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__idproduto_0" (0723d8ff)
+2024-06-10T23:53:16.1066215-03:00 0HN49O25KE5UQ:00000001 [INF] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiTF.Services.DTOs.StockLogResultDTO, ApiTF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-10T23:53:16.1315595-03:00 0HN49O25KE5UQ:00000001 [INF] Executed action "ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)" in 254.3755ms (afa2e885)
+2024-06-10T23:53:16.1317010-03:00 0HN49O25KE5UQ:00000001 [INF] Executed endpoint '"ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)"' (99874f2b)
+2024-06-10T23:53:16.1325917-03:00 0HN49O25KE5UQ:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/logs/1""" - 200 null "application/json; charset=utf-8" 267.7027ms (74253ad3)
+2024-06-10T23:55:16.4008628-03:00 0HN49O25KE5UR:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/logs/2""" - null null (d509f86a)
+2024-06-10T23:55:16.4013343-03:00 0HN49O25KE5UR:00000001 [INF] Executing endpoint '"ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)"' (500cc934)
+2024-06-10T23:55:16.4018034-03:00 0HN49O25KE5UR:00000001 [INF] Route matched with "{action = \"GetStockLogs\", controller = \"StockLog\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ApiTF.Services.DTOs.StockLogResultDTO]] GetStockLogs(Int32)" on controller "ApiTF.Controllers.StockLogController" ("ApiTF"). (122b2fdf)
+2024-06-10T23:55:16.5052012-03:00 0HN49O25KE5UR:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM tb_products AS t
+    WHERE t.id = @__idproduto_0)" (0723d8ff)
+2024-06-10T23:55:16.5157465-03:00 0HN49O25KE5UR:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM tb_stock_logs AS t
+    WHERE t.productid = @__idproduto_0)" (0723d8ff)
+2024-06-10T23:55:16.5846554-03:00 0HN49O25KE5UR:00000001 [INF] Executing "NotFoundObjectResult", writing value of type '"System.String"'. (605b4265)
+2024-06-10T23:55:16.5850015-03:00 0HN49O25KE5UR:00000001 [INF] Executed action "ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)" in 183.0702ms (afa2e885)
+2024-06-10T23:55:16.5851087-03:00 0HN49O25KE5UR:00000001 [INF] Executed endpoint '"ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)"' (99874f2b)
+2024-06-10T23:55:16.5854656-03:00 0HN49O25KE5UR:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/logs/2""" - 404 null "text/plain; charset=utf-8" 184.676ms (74253ad3)
+2024-06-10T23:55:21.0416724-03:00 0HN49O25KE5UR:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/logs/3""" - null null (d509f86a)
+2024-06-10T23:55:21.0424773-03:00 0HN49O25KE5UR:00000002 [INF] Executing endpoint '"ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)"' (500cc934)
+2024-06-10T23:55:21.0427455-03:00 0HN49O25KE5UR:00000002 [INF] Route matched with "{action = \"GetStockLogs\", controller = \"StockLog\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ApiTF.Services.DTOs.StockLogResultDTO]] GetStockLogs(Int32)" on controller "ApiTF.Controllers.StockLogController" ("ApiTF"). (122b2fdf)
+2024-06-10T23:55:21.0554334-03:00 0HN49O25KE5UR:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM tb_products AS t
+    WHERE t.id = @__idproduto_0)" (0723d8ff)
+2024-06-10T23:55:21.0630249-03:00 0HN49O25KE5UR:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM tb_stock_logs AS t
+    WHERE t.productid = @__idproduto_0)" (0723d8ff)
+2024-06-10T23:55:21.1217200-03:00 0HN49O25KE5UR:00000002 [INF] Executing "NotFoundObjectResult", writing value of type '"System.String"'. (605b4265)
+2024-06-10T23:55:21.1221017-03:00 0HN49O25KE5UR:00000002 [INF] Executed action "ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)" in 79.2067ms (afa2e885)
+2024-06-10T23:55:21.1223581-03:00 0HN49O25KE5UR:00000002 [INF] Executed endpoint '"ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)"' (99874f2b)
+2024-06-10T23:55:21.1226515-03:00 0HN49O25KE5UR:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/logs/3""" - 404 null "text/plain; charset=utf-8" 81.1643ms (74253ad3)
+2024-06-10T23:55:49.5600896-03:00 0HN49O25KE5US:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/logs/7""" - null null (d509f86a)
+2024-06-10T23:55:49.5661963-03:00 0HN49O25KE5US:00000001 [INF] Executing endpoint '"ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)"' (500cc934)
+2024-06-10T23:55:49.5683202-03:00 0HN49O25KE5US:00000001 [INF] Route matched with "{action = \"GetStockLogs\", controller = \"StockLog\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ApiTF.Services.DTOs.StockLogResultDTO]] GetStockLogs(Int32)" on controller "ApiTF.Controllers.StockLogController" ("ApiTF"). (122b2fdf)
+2024-06-10T23:55:49.5832924-03:00 0HN49O25KE5US:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM tb_products AS t
+    WHERE t.id = @__idproduto_0)" (0723d8ff)
+2024-06-10T23:55:49.6306676-03:00 0HN49O25KE5US:00000001 [INF] Executing "NotFoundObjectResult", writing value of type '"System.String"'. (605b4265)
+2024-06-10T23:55:49.6309246-03:00 0HN49O25KE5US:00000001 [INF] Executed action "ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)" in 62.4275ms (afa2e885)
+2024-06-10T23:55:49.6310176-03:00 0HN49O25KE5US:00000001 [INF] Executed endpoint '"ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)"' (99874f2b)
+2024-06-10T23:55:49.6312607-03:00 0HN49O25KE5US:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/logs/7""" - 404 null "text/plain; charset=utf-8" 71.3709ms (74253ad3)
+2024-06-10T23:55:53.4444840-03:00 0HN49O25KE5UT:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5279""""/logs/1""" - null null (d509f86a)
+2024-06-10T23:55:53.4452242-03:00 0HN49O25KE5UT:00000001 [INF] Executing endpoint '"ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)"' (500cc934)
+2024-06-10T23:55:53.4454330-03:00 0HN49O25KE5UT:00000001 [INF] Route matched with "{action = \"GetStockLogs\", controller = \"StockLog\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ApiTF.Services.DTOs.StockLogResultDTO]] GetStockLogs(Int32)" on controller "ApiTF.Controllers.StockLogController" ("ApiTF"). (122b2fdf)
+2024-06-10T23:55:53.4555973-03:00 0HN49O25KE5UT:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM tb_products AS t
+    WHERE t.id = @__idproduto_0)" (0723d8ff)
+2024-06-10T23:55:53.4649362-03:00 0HN49O25KE5UT:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM tb_stock_logs AS t
+    WHERE t.productid = @__idproduto_0)" (0723d8ff)
+2024-06-10T23:55:53.4738314-03:00 0HN49O25KE5UT:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__idproduto_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.createdat AS \"Date\", t0.barcode AS \"Barcode\", t0.description AS \"Description\", t.qty AS \"Quantity\"
+FROM tb_stock_logs AS t
+INNER JOIN tb_products AS t0 ON t.productid = t0.id
+WHERE t.productid = @__idproduto_0" (0723d8ff)
+2024-06-10T23:55:53.4746355-03:00 0HN49O25KE5UT:00000001 [INF] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ApiTF.Services.DTOs.StockLogResultDTO, ApiTF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2024-06-10T23:55:53.4753458-03:00 0HN49O25KE5UT:00000001 [INF] Executed action "ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)" in 29.7954ms (afa2e885)
+2024-06-10T23:55:53.4754364-03:00 0HN49O25KE5UT:00000001 [INF] Executed endpoint '"ApiTF.Controllers.StockLogController.GetStockLogs (ApiTF)"' (99874f2b)
+2024-06-10T23:55:53.4757744-03:00 0HN49O25KE5UT:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5279""""/logs/1""" - 200 null "application/json; charset=utf-8" 31.594ms (74253ad3)
+2024-06-10T23:56:02.8408167-03:00 0HN49O25KE5UU:00000001 [INF] Request starting "HTTP/1.1" "PATCH" "http"://"localhost:5279""""/products/5""" - "application/json" 122 (d509f86a)
+2024-06-10T23:56:02.8420865-03:00 0HN49O25KE5UU:00000001 [INF] Executing endpoint '"ApiTF.Controllers.ProductController.Update (ApiTF)"' (500cc934)
+2024-06-10T23:56:02.8470865-03:00 0HN49O25KE5UU:00000001 [INF] Route matched with "{action = \"Update\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ApiTF.BaseDados.Models.TbProduct] Update(Int32, ApiTF.Services.DTOs.ProductUpdateDTO)" on controller "ApiTF.Controllers.ProductController" ("ApiTF"). (122b2fdf)
+2024-06-10T23:56:02.9637675-03:00 0HN49O25KE5UU:00000001 [INF] Executing "ObjectResult", writing value of type '"<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (605b4265)
+2024-06-10T23:56:02.9676359-03:00 0HN49O25KE5UU:00000001 [INF] Executed action "ApiTF.Controllers.ProductController.Update (ApiTF)" in 120.3862ms (afa2e885)
+2024-06-10T23:56:02.9677623-03:00 0HN49O25KE5UU:00000001 [INF] Executed endpoint '"ApiTF.Controllers.ProductController.Update (ApiTF)"' (99874f2b)
+2024-06-10T23:56:02.9679781-03:00 0HN49O25KE5UU:00000001 [INF] Request finished "HTTP/1.1" "PATCH" "http"://"localhost:5279""""/products/5""" - 500 null "application/json; charset=utf-8" 127.2758ms (74253ad3)
+2024-06-10T23:59:05.6280886-03:00  [INF] Now listening on: "http://localhost:5279" (d826f4b8)
+2024-06-10T23:59:05.7151721-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-10T23:59:05.7161946-03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-06-10T23:59:05.7162846-03:00  [INF] Content root path: "C:\Users\daluz\source\repos\ApiTF\ApiTF" (cc26f24e)

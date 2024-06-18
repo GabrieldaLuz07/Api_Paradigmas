@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiTF</name>
+    </assembly>
+    <members>
+        <member name="T:ApiTF.BaseDados.Models.TbProduct">
+            <summary>
+            tabela de produtos
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbProduct.Id">
+            <summary>
+            código único gerado pelo DB
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbProduct.Description">
+            <summary>
+            Descrição do produto
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbProduct.Barcode">
+            <summary>
+            código de barras
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbProduct.Barcodetype">
+            <summary>
+            Tipo de código de barras:\nEAN-13   Varejo - Número de 13 dígitos)\nDUN-14  Frete - Número de 14 dígitos) \nUPC - Varejo (América do Norte e Canadá) -​ Número de 12 dígitos\nCODE 11 - Telecomunicações - números de 0 a 9, – e *\nCODE 39 - Automotiva e Defesa - Letras (A a Z), numéros (0 a 9) e (-, ., $, /, +, %, e espaço). Um caractere adicional (denotado ‘*’) é usado para os delimitadores de início e parada.
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbProduct.Stock">
+            <summary>
+            Quantidade em estoque
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbProduct.Price">
+            <summary>
+            Preço de venda
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbProduct.Costprice">
+            <summary>
+            Preço de custo
+            </summary>
+        </member>
+        <member name="T:ApiTF.BaseDados.Models.TbPromotion">
+            <summary>
+            Tabela de promoções
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbPromotion.Id">
+            <summary>
+            Identificador unico da tabela
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbPromotion.Startdate">
+            <summary>
+            Data e hora de inicio da promoção
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbPromotion.Enddate">
+            <summary>
+            date e hora final da promoção
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbPromotion.Promotiontype">
+            <summary>
+            Tipo de promoção\n0 - % de desconto\n1 - Valor fixo de desconto
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbPromotion.Productid">
+            <summary>
+            Código do produto em promoção
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbPromotion.Value">
+            <summary>
+            Valor da promoção (Se for tipo 0, é o % se for tipo 1, deve ser o valor monetário)
+            </summary>
+        </member>
+        <member name="T:ApiTF.BaseDados.Models.TbSale">
+            <summary>
+            tabela dos documentos de venda
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbSale.Id">
+            <summary>
+            código único da tabela (Gerado automaticamente)
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbSale.Code">
+            <summary>
+            Código da venda (Um código único da venda, onde todos os items de uma venda, terão o mesmo código). Deve ser uma chave guid.
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbSale.Createat">
+            <summary>
+            data de criação do registro
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbSale.Productid">
+            <summary>
+            Código do produto
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbSale.Price">
+            <summary>
+            Preço unitário de venda
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbSale.Qty">
+            <summary>
+            Quantidade vendida
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbSale.Discount">
+            <summary>
+            Valor de desconto unitário (Valor em reais)
+            </summary>
+        </member>
+        <member name="T:ApiTF.BaseDados.Models.TbStockLog">
+            <summary>
+            Tabela de logs de alteração de estoque de produtos
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbStockLog.Id">
+            <summary>
+            Identificador único da tabela
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbStockLog.Productid">
+            <summary>
+            Identificador do produto
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbStockLog.Qty">
+            <summary>
+            Quantidade movimentada. Se estiver adicionando, deve ser positivo, se tiver retirando / vendendo, deve ser negativo
+            </summary>
+        </member>
+        <member name="P:ApiTF.BaseDados.Models.TbStockLog.Createdat">
+            <summary>
+            Data da movimentação
+            </summary>
+        </member>
+        <member name="T:ApiTF.Controllers.ProductController">
+            <summary>
+            Controlador dos produtos.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ApiTF.Controllers.ProductController.Insert(ApiTF.Services.DTOs.ProductDTO)" -->
+        <member name="M:ApiTF.Controllers.ProductController.Update(System.Int32,ApiTF.Services.DTOs.ProductUpdateDTO)">
+            <summary>
+            Atualizar um produto existente.
+            </summary>
+            <param name="id">Identificador do produto que será atualizado.</param>
+            <param name="dto">É necessário informar os campos que serão alterados do produto.
+            <br>Os retornos são:
+            200= Sucesso;
+            400= Requisição inválida;
+            404= Produto não encontrado;
+            422= Produto inválido;</br></param>
+        </member>
+        <member name="M:ApiTF.Controllers.ProductController.GetByBarcode(System.String)">
+            <summary>
+            Buscar um produto existente.
+            </summary>
+            <param name="barcode">Identificador do produto que será buscado para exibição.
+            <br>Os retornos são:
+            200= Sucesso;
+            404= Produto não encontrado;
+            500= Erro interno do servidor;</br></param>
+        </member>
+        <member name="M:ApiTF.Controllers.ProductController.GetAllByDescription(System.String)">
+            <summary>
+            Buscar todos os produto cadastrados.
+            </summary>
+            Os retornos são:
+            200= Sucesso;
+            404= Nenhum produto cadastrado;
+            500= Erro interno do servidor;
+        </member>
+        <member name="M:ApiTF.Controllers.ProductController.Update(System.Int32,System.Int32)">
+            <summary>
+            Ajustar estoque.
+            </summary>
+            <param name="id">Identificador do produto que será atualizado.</param>
+            <param name="stock">É necessário informar a quantidade a incrementar ou decrementar.
+            <br>Os retornos são:
+            200= Sucesso;
+            400= Requisição inválida;
+            404= Produto não encontrado;
+            422= Produto inválido;</br></param>
+        </member>
+        <member name="T:ApiTF.Controllers.PromotionController">
+            <summary>
+            Controlador das promoções.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ApiTF.Controllers.PromotionController.Insert(ApiTF.Services.DTOs.PromotionDTO)" -->
+        <member name="M:ApiTF.Controllers.PromotionController.Update(System.Int32,ApiTF.Services.DTOs.PromotionDTO)">
+            <summary>
+            Atualizar uma promoção existente.
+            </summary>
+            <param name="id">Identificador da promoção que será atualizada.</param>
+            <param name="dto">É necessário informar os campos que serão alterados da promoção.
+            <br>Os retornos são:
+            200= Sucesso;
+            400= Requisição inválida;
+            404= Promoção não encontrada;
+            422= Promoção inválida;</br></param>
+        </member>
+        <member name="M:ApiTF.Controllers.PromotionController.GetAllByDate(System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Buscar todas as promoções cadastradas.
+            </summary>
+            Os retornos são:
+            200= Sucesso;
+            404= Nenhuma promoção cadastrada;
+            500= Erro interno do servidor;
+        </member>
+        <member name="T:ApiTF.Controllers.SaleController">
+            <summary>
+            Controlador das vendas.
+            </summary>
+        </member>
+        <member name="M:ApiTF.Controllers.SaleController.Insert(System.Collections.Generic.List{ApiTF.Services.DTOs.SaleDTO})">
+            <summary>
+            Inserir um novo produto.
+            </summary>
+            <param name="sales">Vendas a serem inseridas.
+            É necessário informar todos os campos para criar um novo produto.
+            <br>Os retornos são:
+            200= Sucesso;
+            400= Requisição inválida;
+            422= Entidade inválida;</br></param>
+        </member>
+        <member name="M:ApiTF.Controllers.SaleController.GetByCode(System.String)">
+            <summary>
+            Buscar uma venda pelo código.
+            </summary>
+            <param name="code">Código da venda que será buscado para exibição.
+            <br>Os retornos são:
+            200= Sucesso;
+            404= Produto não encontrado;
+            500= Erro interno do servidor;</br></param>
+        </member>
+        <member name="M:ApiTF.Controllers.SaleController.GetSalesReport(System.DateTime,System.DateTime)">
+            <summary>
+            Obtém um relatório de vendas por período.
+            </summary>
+            <param name="startDate">A data de início do período.</param>
+            <param name="endDate">A data de fim do período.</param>
+            <returns>Uma lista de relatórios de vendas agrupados por código da venda.</returns>
+            <response code="200">Indica que o relatório de vendas foi retornado com sucesso.</response>
+            <response code="400">Indica que as datas de início e fim não foram fornecidas ou são inválidas.</response>
+            <response code="404">Indica que não foram encontradas vendas no período especificado.</response>
+            <response code="500">Indica que ocorreu um erro interno no servidor.</response>
+        </member>
+        <member name="M:ApiTF.Controllers.StockLogController.GetStockLogs(System.Int32)">
+            <summary>
+            Obtém os logs de um determinado produto.
+            </summary>
+            <param name="idproduto">O ID do produto a ser obtido os logs.</param>
+            <returns>A lista de logs do produto.</returns>
+            <response code="200">Indica que a operação foi bem-sucedida e retorna logs correspondentes ao produto.</response>
+            <response code="404">Indica que o ID do produto informado não existe ou nenhum log foi encontrado para o mesmo.</response>
+            <response code="500">Indica que ocorreu um erro interno no servidor.</response>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.ProductDTO.Id">
+            <summary>
+            código único gerado pelo DB
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.ProductDTO.Description">
+            <summary>
+            Descrição do produto
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.ProductDTO.Barcode">
+            <summary>
+            código de barras
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.ProductDTO.Barcodetype">
+            <summary>
+            Tipo de código de barras:\nEAN-13   Varejo - Número de 13 dígitos)\nDUN-14  Frete - Número de 14 dígitos) \nUPC - Varejo (América do Norte e Canadá) -​ Número de 12 dígitos\nCODE 11 - Telecomunicações - números de 0 a 9, – e *\nCODE 39 - Automotiva e Defesa - Letras (A a Z), numéros (0 a 9) e (-, ., $, /, +, %, e espaço). Um caractere adicional (denotado ‘*’) é usado para os delimitadores de início e parada.
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.ProductDTO.Stock">
+            <summary>
+            Quantidade em estoque
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.ProductDTO.Price">
+            <summary>
+            Preço de venda
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.ProductDTO.Costprice">
+            <summary>
+            Preço de custo
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.PromotionDTO.Id">
+            <summary>
+            Identificador unico da tabela
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.PromotionDTO.Startdate">
+            <summary>
+            Data e hora de inicio da promoção
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.PromotionDTO.Enddate">
+            <summary>
+            date e hora final da promoção
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.PromotionDTO.Promotiontype">
+            <summary>
+            Tipo de promoção\n0 - % de desconto\n1 - Valor fixo de desconto
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.PromotionDTO.Productid">
+            <summary>
+            Código do produto em promoção
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.PromotionDTO.Value">
+            <summary>
+            Valor da promoção (Se for tipo 0, é o % se for tipo 1, deve ser o valor monetário)
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.SaleDTO.Id">
+            <summary>
+            código único da tabela (Gerado automaticamente)
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.SaleDTO.Code">
+            <summary>
+            Código da venda (Um código único da venda, onde todos os items de uma venda, terão o mesmo código). Deve ser uma chave guid.
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.SaleDTO.Createat">
+            <summary>
+            data de criação do registro
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.SaleDTO.Productid">
+            <summary>
+            Código do produto
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.SaleDTO.Price">
+            <summary>
+            Preço unitário de venda
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.SaleDTO.Qty">
+            <summary>
+            Quantidade vendida
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.SaleDTO.Discount">
+            <summary>
+            Valor de desconto unitário (Valor em reais)
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.StockLogDTO.Id">
+            <summary>
+            Identificador único da tabela
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.StockLogDTO.Productid">
+            <summary>
+            Identificador do produto
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.StockLogDTO.Qty">
+            <summary>
+            Quantidade movimentada. Se estiver adicionando, deve ser positivo, se tiver retirando / vendendo, deve ser negativo
+            </summary>
+        </member>
+        <member name="P:ApiTF.Services.DTOs.StockLogDTO.Createdat">
+            <summary>
+            Data da movimentação
+            </summary>
+        </member>
+    </members>
+</doc>
